@@ -1,0 +1,165 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.border-black {
+  border: 2.5px solid black;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+header {
+  top: 0.2rem;
+  left: 2.5vw;
+  right: 2.5vw;
+  position: fixed;
+}
+
+.header-hero,
+footer {
+  justify-content: space-between;
+  width: 95vw;
+  padding: 0.5rem;
+}
+
+.nav {
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.header-list {
+  color: blue;
+}
+
+li + li {
+  border-left: 2px solid blue;
+  padding-left: 0.5rem;
+}
+
+.date {
+  width: max-content;
+  margin-left: auto;
+  margin-top: 0.2rem;
+  color: blue;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+.library-booklist__heading {
+  margin: 1rem 0 2rem 0;
+  text-align: center;
+}
+
+.library-booklist__books {
+  width: 90vw;
+}
+
+.library-book {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.3rem;
+  padding-right: 1rem;
+}
+
+.library-book__title,
+.library-book__author {
+  text-transform: capitalize;
+}
+
+form button {
+  float: right;
+}
+
+.library-book .library-btn__rmv,
+form button {
+  padding: 0.1rem 0.3rem;
+  box-shadow: 3px 3px 3px black;
+}
+
+.library-book button {
+  margin-left: auto;
+}
+
+form {
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 8rem;
+  position: absolute;
+  visibility: hidden;
+}
+
+form > * {
+  margin-top: 1rem;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+form h2 {
+  text-align: center;
+}
+
+form h2 span {
+  border-top: 2px solid black;
+  padding-top: 1rem;
+}
+
+.errMsg {
+  color: red;
+}
+
+.contact-information {
+  position: absolute;
+  visibility: hidden;
+  width: 90vw;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0.2rem;
+  left: 2.5vw;
+  right: 2.5vw;
+}
+
+.show {
+  position: static;
+  visibility: visible;
+}
+
+.hide {
+  position: absolute;
+  visibility: hidden;
+}
