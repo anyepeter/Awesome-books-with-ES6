@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://anyepeter.github.io/Awesome-books-with-ES6/)
 
 ## Getting Started
 
