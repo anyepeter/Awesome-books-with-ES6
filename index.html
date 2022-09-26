@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div class="header-hero center border-black flex-row">
+            <h3 class="icon">Awesome Books</h3>
+            <ul class="nav flex-row">
+                <li class="header-list">List</li>
+                <li class="header-addnew">Add new</li>
+                <li class="header-contact">Contact</li>
+            </ul>
+        </div>
+        <p class="date"></p>
+    </header>
+    <main>
+        <section class="library-booklist">
+            <h1 class="library-booklist__heading">All awesome books</h1>
+            <section class="library-booklist__books border-black center"></section>
+        </section>
+        <section class="contact-information center">
+            <h2>Contact Information</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam quas
+                expedita, accusantium natus amet beatae? Id, deserunt eius iste
+                ratione quidem cumque? Numquam omnis culpa, earum ullam expedita
+                eligendi facilis!
+                Contact Us.
+            </p>
+            <a href="https://github.com/adnanolarmmi">Is-haq, Adnan Olamilekan</a>
+            <span>and</span>
+            <a href="https://github.com/anyepeter">Anye Peter Chendi</a>
+        </section>
+        <form action="">
+            <h2>A<span>dd a new </span>book</h2>
+            <input
+                type="text"
+                id="title"
+                placeholder="Title"
+                class="border-black"
+                required
+            />
+            <br />
+            <input
+                type="text"
+                id="author"
+                placeholder="Author"
+                class="border-black"
+                required
+            />
+            <br />
+            <button type="button" class="library-btn__add">
+                    Add
+                </button>
+            <p class="alertMsg"></p>
+        </form>
+    </main>
+    <footer class="center border-black flex-row">
+        <p>awesome books</p>
+        <p>&copy; some rights reserverd</p>
+    </footer>
+</body>
+</html>
