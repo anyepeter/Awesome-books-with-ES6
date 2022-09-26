@@ -1,72 +1,52 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
-
-> Description the project.
 
 
-## Built With
+# Awesome book with modules
 
-- Major languages
-- Frameworks
-- Technologies used
+> This project adds and remove books from the a list of books. It can be applicable in an e-commerce site or library software.
 
-## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+## This project was built using
 
+- HTML(Hyper Text Markup Lanugage)
+- CSS(cascading styte sheets)
+- Javascript
+
+## Live Demo
+
+[Live Demo Link]()
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+**In other to get this project locally install in your computer, please do the following.**
 
 ### Prerequisites
-
-### Setup
-
+You will need a:
+- Code editor e.g vs code.
+- Web browser e.g google chrome.
+- git 
 ### Install
+ - In git bash, clone the project using the git command git clone [https://github.com/anyepeter/Awesome-books-with-ES6.git](https://github.com/anyepeter/Awesome-books-with-ES6.git)
+ - code . to open it in your code editor.
+ - Make changes and run it in your browser.
 
-### Usage
+👤 **ANYE PETER**
 
-### Run tests
+- GitHub: [@anyepeter](https://github.com/anyepeter)
+- Twitter: [@anyepeter](https://twitter.com/home?lang=en)
+- LinkedIn: [peterchendi](https://www.linkedin.com/feed/)
 
-### Deployment
 
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/anyepeter/Awesome-books-with-ES6/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
