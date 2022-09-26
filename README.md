@@ -24,10 +24,54 @@ You will need a:
 - Code editor e.g vs code.
 - Web browser e.g google chrome.
 - git 
-### Install
- - In git bash, clone the project using the git command git clone [https://github.com/anyepeter/Awesome-books-with-ES6.git](https://github.com/anyepeter/Awesome-books-with-ES6.git)
- - code . to open it in your code editor.
- - Make changes and run it in your browser.
+### Setup
+
+- Clone this repository or download the Zip folder:
+
+```
+git clone https://github.com/anyepeter/Awesome-books-with-ES6.git
+```
+
+- Navigate to the location of the folder in your machine:
+
+**`you@your-Pc-name:~$ cd <folder>`**
+
+### Usage
+
+- After Cloning this repo to your local machine
+- Open the `index.html` in your browser
+
+### Run Tests
+
+To track linter errors locally follow these steps:
+
+Download all the dependencies run:
+
+```
+npm install
+```
+
+Track HTML linter errors run:
+
+```
+npx hint .
+```
+
+Track CSS linter errors run:
+
+```
+npx stylelint "**/*.{css,scss}"
+```
+
+Track JavaScript linter errors run:
+
+```
+npx eslint .
+```
+
+### Deployment
+
+- I used GitHub Pages to deploy my website
 
 👤 **ANYE PETER**
 
