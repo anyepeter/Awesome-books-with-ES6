@@ -2,7 +2,7 @@
 
 # Awesome book with modules
 
-> This project adds and remove books from the a list of books. It can be applicable in an e-commerce site or library software.
+> This project adds and removes books from the list of books. It can apply to an e-commerce site or library software.
 
 
 ## This project was built using
